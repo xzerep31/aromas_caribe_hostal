@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {{ partial "head" .}}
+    </head>
+    <body>
+
+        <!--================Header Area =================-->
+        {{ partial "header" .}}
+        <!--================Header Area =================-->
+        
+        <!--================Banner Area =================-->
+        {{ partial "banner" .}}
+        <!--================Banner Area =================-->
+        
+        <main>
+            {{ block "main" .}}
+                <p> En construcción ... </p>
+            {{ end }}
+        </main>
+
+        <!--================ start footer Area  =================-->	
+        {{ partial "footer" .}}
+		<!--================ End footer Area  =================-->
+        
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        {{ range .Site.Params.js -}}
+            <script src="{{ . | relURL }}"></script>
+        {{ end -}}
+    </body>
+</html>
