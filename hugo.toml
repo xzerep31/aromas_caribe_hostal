@@ -1,0 +1,105 @@
+baseURL = 'https://hostalaromasdelcaribe.trinicuba.com/'
+languageCode = 'en-us'
+title = 'Hostal Aromas del Caribe'
+defaultContentLanguage = 'es'
+defaultContentLanguageInSubdir = true
+paginate = 20
+canonifyUrls = true
+
+
+[params]
+    defaultDescription = ""
+    defaultKeywords = ["Hostal", "Aromas del Caribe", "Hostel", "Cuba", "Trinidad", "Caribe"]
+    
+    info = ""
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+
+    phone  = "(+53) 5 522-7984"
+    email = ""
+
+    formsubmit_action = "https://formsubmit.co/"
+
+    css = ["css/style.css"]
+
+[Author]
+    name = "Pedro Victor Navarrete Alejo"
+
+[languages]
+    [languages.es]
+        contentDir = 'content/es'
+        languageName = "Es"
+        weight = 1
+        [languages.es.params]
+            flag = 'fi fi-es fis'
+
+    [languages.en]
+       contentDir = 'content/en'
+       languageName = "En"
+       weight = 2
+       [languages.en.params]
+            flag = 'fi fi-sh fis'
+
+    [languages.fr]
+       contentDir = 'content/fr'
+       languageName = "Fr"
+       weight = 3
+       [languages.fr.params]
+            flag = 'fi fi-fr fis'
+
+
+# Social links
+[[params.social]]
+    name = "Facebook"
+    icon = "fab fa-facebook"
+    weight = 1
+    url = "https://www.facebook.com/"
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram"
+    weight = 2
+    url = "https://www.instagram.com/"
+[[params.social]]
+    name = "Gmail"
+    icon = "fa fa-envelope"
+    weight = 3
+    url = "mailto:"
+
+# Menu links
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    url  = "/"
+[[menu.main]]
+    name = "Tours"
+    weight = 2
+    url = "/#"
+[[menu.main]]
+    name = "Package"
+    weight = 4
+    url = "/#"
+[[menu.main]]
+    name = "Blog"
+    weight = 5
+    url = "/#"
+[[menu.main]]
+    name = "About Us"
+    weight = 6
+    url = "/#"
+[[menu.main]]
+    name = "Contact Us"
+    weight = 7
+    url = "/#"
+
+# Services
+[params.services]
+    enable = true
+
+# Staff
+[params.staff]
+    enable = true
