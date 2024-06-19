@@ -25,7 +25,30 @@ canonifyUrls = true
 
     formsubmit_action = "https://formsubmit.co/"
 
-    css = ["css/style.css"]
+    css = ["css/bootstrap.css",
+           "vendors/linericon/style.css",
+           "css/font-awesome.min.css",
+           "vendors/owl-carousel/owl.carousel.min.css",
+           "vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css",
+           "vendors/nice-select/css/nice-select.css",
+           "vendors/owl-carousel/owl.carousel.min.css",
+           "css/style.css",
+           "css/responsive.css"
+          ]
+
+    js = ["js/jquery-3.2.1.min.js",
+          "js/popper.js",
+          "js/bootstrap.min.js",
+          "vendors/owl-carousel/owl.carousel.min.js",
+          "js/jquery.ajaxchimp.min.js",
+          "js/mail-script.js",
+          "vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js",
+          "vendors/nice-select/js/jquery.nice-select.js",
+          "js/mail-script.js",
+          "js/stellar.js",
+          "vendors/lightbox/simpleLightbox.min.js",
+          "js/custom.js"
+         ]
 
 [Author]
     name = "Pedro Victor Navarrete Alejo"
