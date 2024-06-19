@@ -81,7 +81,7 @@ canonifyUrls = true
     name = "Facebook"
     icon = "fab fa-facebook"
     weight = 1
-    url = "https://www.facebook.com/"
+    url = "https://www.facebook.com/p/Hostal-aromas-del-caribe-100063566111069/?paipv=0&eav=AfbcsL6ATWL6fruM1Jhiki0fWfONR5RGHn6r01DfaDQ4Iqo_9WAZB2lgJtgnUTEJ8a0&_rdr"
 [[params.social]]
     name = "Instagram"
     icon = "fab fa-instagram"
@@ -92,30 +92,35 @@ canonifyUrls = true
     icon = "fa fa-envelope"
     weight = 3
     url = "mailto:"
+[[params.social]]
+    name = "Trip Advisor"
+    icon = "fab fa-tripadvisor"
+    weight = 4
+    url = "https://www.tripadvisor.es/Hotel_Review-g285731-d14996892-Reviews-Hostal_Aromas_del_Caribe-Trinidad_Sancti_Spiritus_Province_Cuba.html"
 
 # Menu links
 [[menu.main]]
-    name = "Home"
+    name = "home"
     weight = 1
     url  = "/"
 [[menu.main]]
-    name = "Tours"
+    name = "aboutus"
     weight = 2
-    url = "/#"
+    url = "about.html"
 [[menu.main]]
-    name = "Package"
+    name = "accomodations"
     weight = 4
     url = "/#"
 [[menu.main]]
-    name = "Blog"
+    name = "gallery"
     weight = 5
     url = "/#"
 [[menu.main]]
-    name = "About Us"
+    name = "services"
     weight = 6
     url = "/#"
 [[menu.main]]
-    name = "Contact Us"
+    name = "contactus"
     weight = 7
     url = "/#"
 

@@ -1,0 +1,20 @@
+- id: home
+  translation: "Début"
+
+- id: aboutus
+  translation: "Près de nous"
+
+- id: accomodations
+  translation: "Inconvénients modernes"
+
+- id: gallery
+  translation: "Galerie"
+
+- id: blog
+  translation: "Blog"
+
+- id: services
+  translation: "Prestations de service"
+
+- id: contactus
+  translation: "Contactez-nous"

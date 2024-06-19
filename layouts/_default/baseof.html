@@ -1,29 +1,20 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode }}">
     <head>
         {{ partial "head" .}}
     </head>
     <body>
-
-        <!--================Header Area =================-->
-        {{ partial "header" .}}
-        <!--================Header Area =================-->
-        
-        <!--================Banner Area =================-->
-        {{ partial "banner" .}}
-        <!--================Banner Area =================-->
-        
         <main>
             {{ block "main" .}}
-                <p> En construcción ... </p>
+                <p>En Construcción!</p>
             {{ end }}
         </main>
-
-        <!--================ start footer Area  =================-->	
-        {{ partial "footer" .}}
-		<!--================ End footer Area  =================-->
-        
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <footer>
+            <!--================ start footer Area  =================-->	
+            {{ partial "footer" .}}
+            <!--================ End footer Area  =================-->
+        </footer>        
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         {{ range .Site.Params.js -}}

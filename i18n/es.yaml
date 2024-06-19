@@ -1,0 +1,20 @@
+- id: home
+  translation: "Inicio"
+
+- id: aboutus
+  translation: "Acerca de Nosotros"
+
+- id: accomodations
+  translation: "Alojamientos"
+
+- id: gallery
+  translation: "Galería"
+
+- id: blog
+  translation: "Blog"
+
+- id: services
+  translation: "Servicios"
+
+- id: contactus
+  translation: "Contáctenos"
