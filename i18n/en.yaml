@@ -18,3 +18,28 @@
 
 - id: contactus
   translation: "Contact Us"
+
+- id: ourhistory
+  translation: "Our History"
+
+- id: mision
+  translation: "Mission"
+
+- id: vision
+  translation: "Vision" 
+
+- id: locate
+  translation: "Location"
+
+- id: book
+  translation: "Book"
+
+- id: now
+  translation: "Now"
+
+- id: room
+  translation: "Room"
+
+- id: yourroom
+  translation: "your room"
+

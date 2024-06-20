@@ -5,7 +5,7 @@ defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = true
 paginate = 20
 canonifyUrls = true
-
+enableRobotsTXT = true
 
 [params]
     defaultDescription = ""
@@ -20,20 +20,21 @@ canonifyUrls = true
 
     math = true
 
+    address = "San José #261 e/ Amargura y Real del Jigüe, Trinidad, Sancti Spíritus, Cuba"
     phone  = "(+53) 5 522-7984"
-    email = ""
+    email = "hostalaromasdelcaribe@gmail.com"
 
     formsubmit_action = "https://formsubmit.co/"
 
-    css = ["css/bootstrap.css",
+    css = ["css/style.css",
+           "css/responsive.css",
+           "css/bootstrap.css",
            "vendors/linericon/style.css",
            "css/font-awesome.min.css",
            "vendors/owl-carousel/owl.carousel.min.css",
            "vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css",
            "vendors/nice-select/css/nice-select.css",
-           "vendors/owl-carousel/owl.carousel.min.css",
-           "css/style.css",
-           "css/responsive.css"
+           "vendors/owl-carousel/owl.carousel.min.css"
           ]
 
     js = ["js/jquery-3.2.1.min.js",
@@ -106,11 +107,11 @@ canonifyUrls = true
 [[menu.main]]
     name = "aboutus"
     weight = 2
-    url = "about.html"
+    url = "/#about"
 [[menu.main]]
     name = "accomodations"
     weight = 4
-    url = "/#"
+    url = "/#accomodations"
 [[menu.main]]
     name = "gallery"
     weight = 5
@@ -118,11 +119,11 @@ canonifyUrls = true
 [[menu.main]]
     name = "services"
     weight = 6
-    url = "/#"
+    url = "/#services"
 [[menu.main]]
     name = "contactus"
     weight = 7
-    url = "/#"
+    url = "/#footer"
 
 # Services
 [params.services]
