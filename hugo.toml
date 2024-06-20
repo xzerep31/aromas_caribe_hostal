@@ -30,13 +30,14 @@ enableRobotsTXT = true
            "css/responsive.css",
            "css/bootstrap.css",
            "vendors/linericon/style.css",
-           "css/font-awesome.min.css",
+           "vendors/font-awesome/css/font-awesome.min.css",
            "vendors/owl-carousel/owl.carousel.min.css",
            "vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css",
            "vendors/nice-select/css/nice-select.css",
            "vendors/owl-carousel/owl.carousel.min.css",
-           "css/flag-icons.css",
-           "flag-icons.min.css"
+           "vendors/flag-icons/css/flag-icons.css",
+           "vendors/flag-icons/css/flag-icons.min.css",
+           "vendors/uicons-regular-rounded/css/uicons-regular-rounded.css"
           ]
 
     js = ["js/jquery-3.2.1.min.js",
@@ -62,42 +63,42 @@ enableRobotsTXT = true
         languageName = "Es"
         weight = 1
         [languages.es.params]
-            flag = 'fi fi-es fis'
+            flag = 'fi fi-es.fis fis'
 
     [languages.en]
        contentDir = 'content/en'
        languageName = "En"
        weight = 2
        [languages.en.params]
-            flag = 'fi fi-sh fis'
+            flag = 'fi fi-sh.fis fis'
 
     [languages.fr]
        contentDir = 'content/fr'
        languageName = "Fr"
        weight = 3
        [languages.fr.params]
-            flag = 'fi fi-fr fis'
+            flag = 'fi fi-fr.fis fis'
 
 
 # Social links
 [[params.social]]
     name = "Facebook"
-    icon = "fab fa-facebook"
+    icon = "fa fa-facebook-official"
     weight = 1
     url = "https://www.facebook.com/p/Hostal-aromas-del-caribe-100063566111069/?paipv=0&eav=AfbcsL6ATWL6fruM1Jhiki0fWfONR5RGHn6r01DfaDQ4Iqo_9WAZB2lgJtgnUTEJ8a0&_rdr"
 [[params.social]]
     name = "Instagram"
-    icon = "fab fa-instagram"
+    icon = "fa fa-instagram"
     weight = 2
     url = "https://www.instagram.com/"
 [[params.social]]
     name = "Gmail"
     icon = "fa fa-envelope"
     weight = 3
-    url = "mailto:"
+    url = "mailto:hostalaromasdelcaribe@gmail.com"
 [[params.social]]
     name = "Trip Advisor"
-    icon = "fab fa-tripadvisor"
+    icon = "fa fa-tripadvisor"
     weight = 4
     url = "https://www.tripadvisor.es/Hotel_Review-g285731-d14996892-Reviews-Hostal_Aromas_del_Caribe-Trinidad_Sancti_Spiritus_Province_Cuba.html"
 
@@ -123,8 +124,12 @@ enableRobotsTXT = true
     weight = 6
     url = "/#services"
 [[menu.main]]
-    name = "contactus"
+    name = "book"
     weight = 7
+    url = "/#booking"
+[[menu.main]]
+    name = "contactus"
+    weight = 8
     url = "/#footer"
 
 # Services
