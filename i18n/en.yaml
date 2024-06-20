@@ -40,6 +40,32 @@
 - id: room
   translation: "Room"
 
+- id: rooms
+  translation: "Rooms"
+
 - id: yourroom
   translation: "your room"
 
+- id: numberof
+  translation: "Number of"
+
+- id: child
+  translation: "Child"
+
+- id: adult
+  translation: "Adult"
+
+- id: baby
+  translation: "Baby"
+
+- id: old
+  translation: "Old"
+
+- id: younger
+  translation: "Younger"
+
+- id: arrivalDate
+  translation: "Arrival Date"
+
+- id: departureDate
+  translation: "Departure Date"

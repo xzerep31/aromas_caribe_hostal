@@ -40,5 +40,32 @@
 - id: room
   translation: "Habitación"
 
+- id: rooms
+  translation: "Habitaciones"
+
 - id: yourroom
   translation: "tu habitación"
+
+- id: numberof
+  translation: "Cantidad de"
+
+- id: child
+  translation: "Niño"
+
+- id: adult
+  translation: "Adulto"
+
+- id: baby
+  translation: "Bebé"
+
+- id: old
+  translation: "Viejo"
+
+- id: younger
+  translation: "Joven"
+
+- id: arrivalDate
+  translation: "Fecha de Llegada"
+
+- id: departureDate
+  translation: "Fecha de Salida"
