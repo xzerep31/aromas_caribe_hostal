@@ -52,8 +52,14 @@
 - id: child
   translation: "Niño"
 
+- id: childs
+  translation: "Niños"
+
 - id: adult
   translation: "Adulto"
+
+- id: adults
+  translation: "Adultos"
 
 - id: baby
   translation: "Bebé"
@@ -69,3 +75,24 @@
 
 - id: departureDate
   translation: "Fecha de Salida"
+
+- id: lock
+  translation: "Caja fuerte"
+
+- id: dinner
+  translation: "Cena"
+
+- id: breakfast
+  translation: "Desayuno"
+
+- id: cocktails
+  translation: "Coctelería"
+
+- id: dryer
+  translation: "Lavado de ropa"
+
+- id: wifi
+  translation: "Wifi"
+
+- id: air-conditioning
+  translation: "Aire acondicionado"

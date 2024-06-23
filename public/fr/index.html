@@ -76,7 +76,7 @@
                             
                         
                             
-                                <a href="http://localhost:1313/fr/#booking" class="nav-item nav-link">Reserva</a>
+                                <a href="http://localhost:1313/fr/#booking" class="nav-item nav-link">Reserve</a>
                             
                         
                             
@@ -115,7 +115,7 @@
     <div class="container">
         <div class="hotel_booking_table">
             <div class="col-md-3">
-                <h2>Reserva<br> tu habitación</h2>
+                <h2>Reserve<br> Ta chambre</h2>
             </div>
             <div class="col-md-9">
                 <div class="boking_table">
@@ -125,7 +125,7 @@
                             <div class="book_tabel_item">
                                 <div class="form-group">
                                     <div class='input-group date' id='datetimepicker11'>
-                                        <input type='text' class="form-control" placeholder="Fecha de Llegada"/>
+                                        <input type='text' class="form-control" id="checkin" placeholder="Date d&#39;arrivée"/>
                                         <span class="input-group-addon">
                                             <i class="fa fa-calendar" aria-hidden="true"></i>
                                         </span>
@@ -133,7 +133,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class='input-group date' id='datetimepicker1'>
-                                        <input type='text' class="form-control" placeholder="Fecha de Salida"/>
+                                        <input type='text' class="form-control" id="checkout" placeholder="Date de départ"/>
                                         <span class="input-group-addon">
                                             <i class="fa fa-calendar" aria-hidden="true"></i>
                                         </span>
@@ -144,31 +144,29 @@
                         <div class="col-md-4">
                             <div class="book_tabel_item">
                                 <div class="input-group">
-                                    <select class="wide">
-                                        <option data-display="Adulto">Adulto</option>
-                                        <option value="1">Viejo</option>
-                                        <option value="2">Joven</option>
-                                    </select>
+                                    <span class="input-group-addon">
+                                        Nombre de Adultes
+                                    </span>
+                                    <input type="text" id="adults" class="form-control" placeholder="Nombre de Adultes" />
                                 </div>
                                 <div class="input-group">
-                                    <select class="wide">
-                                        <option data-display="Niño">Niño</option>
-                                        <option value="1">Niño</option>
-                                        <option value="2">Bebé</option>
-                                    </select>
+                                    <span class="input-group-addon">
+                                        Nombre de Niños
+                                    </span>
+                                    <input type="text" id="childs" class="form-control" placeholder="Nombre de Niños" />
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="book_tabel_item">
                                 <div class="input-group">
-                                    <select class="wide">
-                                        <option data-display="Cantidad de Habitaciones">Cantidad de Habitaciones</option>
-                                        <option value="1">Habitación 01</option>
-                                        <option value="2">Habitación 02</option>
+                                    <select class="wide" id="room">
+                                        <option data-display="Chambre">Chambre</option>
+                                        <option value="1">Chambre 01</option>
+                                        <option value="2">Chambre 02</option>
                                     </select>
-                                </div>
-                                <button class="book_now_btn button_hover" type="submit">Reserva Ahora</button>
+                                </div>  
+                                <button class="book_now_btn button_hover" type="submit">Reserve maintenant</button>
                             </div>
                         </div>
                     </div>
@@ -183,23 +181,32 @@
     <section class="accomodation_area section_gap" id="accomodations">
     <div class="container">
         <div class="section_title text-center">
-            <h2 class="title_color">Habitaciones</h2>
+            <h2 class="title_color">Pièces</h2>
         </div>
         <div class="row mb_30">
             <div class="col-lg-6 col-sm-6">
                 <div class="accomodation_item text-center">
-                    <div class="hotel_img">
-                        <img src="http://localhost:1313/img/Hab1.jpg" alt="" width="600px">
-                        <a href="http://localhost:1313/#booking" class="book_now_btn button_hover">Reserva Ahora</a>
+                    <div class="hotel_img card-top">
+                        <a href="http://localhost:1313/img/Hab1.jpg"><img src="http://localhost:1313/img/Hab1.jpg" alt="" width="600px"></a> 
+                    </div>
+                    <div class="card-bottom">
+                        <span class="top-text">Premium Membership</span><br>
+                        <span class="bottom-text">Join our membership program to download music for free, listen offline and skip songs</span>
+                        <br>
+                        <a href="http://localhost:1313/#booking" class="book_now_btn button_hover">Reserve maintenant</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="accomodation_item text-center">
                     <div class="hotel_img">
-                        <img src="http://localhost:1313/img/Hab2.jpg" alt="" width="600px">
-                        <a href="http://localhost:1313/#booking" class="book_now_btn button_hover">Reserva Ahora</a>
+                        <a href="http://localhost:1313/img/Hab2.jpg"><img src="http://localhost:1313/img/Hab2.jpg" alt="" width="600px"></a>
                     </div>
+                    <div class="card-bottom">
+                        <span class="top-text">Premium Membership</span><br>
+                        <span class="bottom-text">Join our membership program to download music for free, listen offline and skip songs</span>
+                        <br>
+                        <a href="http://localhost:1313/#booking" class="book_now_btn button_hover">Reserve maintenant</a>                    </div>
                 </div>
             </div>
         </div>
@@ -211,42 +218,41 @@
     <div class="container">
         <div class="section_title text-center">
             <h2 class="title_w">Prestations de service</h2>
-            <p>Who are in extremely love with eco friendly system.</p>
         </div>
         <div class="row mb_30">
             <div class="col-lg-4 col-md-6">
                 <div class="facilities_item">
-                    <h4 class="sec_h4"><i class="fi fi-rr-restaurant"></i>Restaurant</h4>
+                    <h4 class="sec_h4"><i class="fi fi-rr-restaurant"></i>Dîner & Petit-déjeuner</h4>
                     <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="facilities_item">
-                    <h4 class="sec_h4"><i class="fi fi-rr-lock"></i>Sports CLub</h4>
+                    <h4 class="sec_h4"><i class="fi fi-rr-lock"></i>coffre fort</h4>
                     <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="facilities_item">
-                    <h4 class="sec_h4"><i class="fi fi-rr-martini-glass-citrus"></i>Swimming Pool</h4>
+                    <h4 class="sec_h4"><i class="fi fi-rr-martini-glass-citrus"></i>Cocktails</h4>
                     <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="facilities_item">
-                    <h4 class="sec_h4"><i class="fi fi-rr-washer"></i>Rent a Car</h4>
+                    <h4 class="sec_h4"><i class="fi fi-rr-washer"></i>Machine à laver</h4>
                     <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="facilities_item">
-                    <h4 class="sec_h4"><i class="fi fi-rr-wifi"></i>Gymnesium</h4>
+                    <h4 class="sec_h4"><i class="fi fi-rr-wifi"></i>Wifi</h4>
                     <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="facilities_item">
-                    <h4 class="sec_h4"><i class="fi fi-rr-air-conditioner"></i>Bar</h4>
+                    <h4 class="sec_h4"><i class="fi fi-rr-air-conditioner"></i>Climatisation</h4>
                     <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                 </div>
             </div>
@@ -258,13 +264,13 @@
         <div class="row">
             <div class="col-md-6 d_flex align-items-center">
                 <div class="about_content ">
-                    <h2 class="title title_color">Près de nous <br>Nuestra Historia<br>Misión & Visión</h2>
+                    <h2 class="title title_color">Près de nous <br>Notre histoire<br>Mission & Vision</h2>
                     <p></p>
                     <a href="#" class="button_hover theme_btn_two">Request Custom Price</a>
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="image/about_bg.jpg" alt="img">
+                <img class="img-fluid" src="http://localhost:1313/img/about.jpg" alt="img">
             </div>
         </div>
     </div>
@@ -337,7 +343,7 @@
 </section>
 
         </main>
-            <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+            <a href="http://localhost:1313/" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fi fi-rr-arrow-small-up"></i></a>
         <footer>
             	
             <footer class="footer-area section_gap" id="footer">
@@ -346,16 +352,16 @@
             <div class="col-lg-4  col-md-6">
                 <div class="single-footer-widget">
                     <h6 class="footer-title">Contactez-nous</h6>
-                    <p class="mb-2"><i class="fa fa-map-signs me-3"></i>San José #261 e/ Amargura y Real del Jigüe, Trinidad, Sancti Spíritus, Cuba</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(&#43;53) 5 522-7984</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>hostalaromasdelcaribe@gmail.com</p>                </div>
+                    <p><i class="fa fa-map-signs me-3"></i>San José #261 e/ Amargura y Real del Jigüe, Trinidad, Sancti Spíritus, Cuba</p>
+                    <p><i class="fa fa-phone me-3"></i>(&#43;53) 5 522-7984</p>
+                    <p><i class="fa fa-envelope me-3"></i>hostalaromasdelcaribe@gmail.com</p>                </div>
             </div>
             <div class="col-lg-4">
-                <img src="http://localhost:1313/img/footer.png" alt="">
+                <img src="http://localhost:1313/img/footer.png" alt="" width="300px">
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
-                        <h6 class="footer-title">Localización</h6>
+                        <h6 class="footer-title">Emplacement</h6>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.3036656101685!2d-79.9875237247216!3d21.807195080044195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f2ae5ae875eae37%3A0x4e9d6fa7ae79644a!2sHostal%20aromas%20del%20caribe!5e0!3m2!1sen!2scu!4v1718830825358!5m2!1sen!2scu" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>										
                     </div>							
                 </div>

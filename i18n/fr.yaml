@@ -18,3 +18,81 @@
 
 - id: contactus
   translation: "Contactez-nous"
+
+- id: ourhistory
+  translation: "Notre histoire"
+
+- id: mision
+  translation: "Mission"
+
+- id: vision
+  translation: "Vision" 
+
+- id: locate
+  translation: "Emplacement"
+
+- id: book
+  translation: "Reserve"
+
+- id: now
+  translation: "maintenant"
+
+- id: room
+  translation: "Chambre"
+
+- id: rooms
+  translation: "Pièces"
+
+- id: yourroom
+  translation: "Ta chambre"
+
+- id: numberof
+  translation: "Nombre de"
+
+- id: child
+  translation: "Enfant"
+
+- id: childs
+  translatin: "Enfants"
+
+- id: adult
+  translation: "Adulte"
+
+- id: adults
+  translation: "Adultes"
+
+- id: baby
+  translation: "Bébé"
+
+- id: old
+  translation: "Old"
+
+- id: younger
+  translation: "Plus jeune"
+
+- id: arrivalDate
+  translation: "Date d'arrivée"
+
+- id: departureDate
+  translation: "Date de départ"
+
+- id: lock
+  translation: "coffre fort"
+
+- id: dinner
+  translation: "Dîner"
+
+- id: breakfast
+  translation: "Petit-déjeuner"
+
+- id: cocktails
+  translation: "Cocktails"
+
+- id: dryer
+  translation: "Machine à laver"
+
+- id: wifi
+  translation: "Wifi"
+
+- id: air-conditioning
+  translation: "Climatisation"

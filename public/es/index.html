@@ -125,7 +125,7 @@
                             <div class="book_tabel_item">
                                 <div class="form-group">
                                     <div class='input-group date' id='datetimepicker11'>
-                                        <input type='text' class="form-control" placeholder="Fecha de Llegada"/>
+                                        <input type='text' class="form-control" id="checkin" placeholder="Fecha de Llegada"/>
                                         <span class="input-group-addon">
                                             <i class="fa fa-calendar" aria-hidden="true"></i>
                                         </span>
@@ -133,7 +133,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class='input-group date' id='datetimepicker1'>
-                                        <input type='text' class="form-control" placeholder="Fecha de Salida"/>
+                                        <input type='text' class="form-control" id="checkout" placeholder="Fecha de Salida"/>
                                         <span class="input-group-addon">
                                             <i class="fa fa-calendar" aria-hidden="true"></i>
                                         </span>
@@ -144,30 +144,28 @@
                         <div class="col-md-4">
                             <div class="book_tabel_item">
                                 <div class="input-group">
-                                    <select class="wide">
-                                        <option data-display="Adulto">Adulto</option>
-                                        <option value="1">Viejo</option>
-                                        <option value="2">Joven</option>
-                                    </select>
+                                    <span class="input-group-addon">
+                                        Cantidad de Adultos
+                                    </span>
+                                    <input type="text" id="adults" class="form-control" placeholder="Cantidad de Adultos" />
                                 </div>
                                 <div class="input-group">
-                                    <select class="wide">
-                                        <option data-display="Niño">Niño</option>
-                                        <option value="1">Niño</option>
-                                        <option value="2">Bebé</option>
-                                    </select>
+                                    <span class="input-group-addon">
+                                        Cantidad de Niños
+                                    </span>
+                                    <input type="text" id="childs" class="form-control" placeholder="Cantidad de Niños" />
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="book_tabel_item">
                                 <div class="input-group">
-                                    <select class="wide">
-                                        <option data-display="Cantidad de Habitaciones">Cantidad de Habitaciones</option>
+                                    <select class="wide" id="room">
+                                        <option data-display="Habitación">Habitación</option>
                                         <option value="1">Habitación 01</option>
                                         <option value="2">Habitación 02</option>
                                     </select>
-                                </div>
+                                </div>  
                                 <button class="book_now_btn button_hover" type="submit">Reserva Ahora</button>
                             </div>
                         </div>
@@ -188,8 +186,13 @@
         <div class="row mb_30">
             <div class="col-lg-6 col-sm-6">
                 <div class="accomodation_item text-center">
-                    <div class="hotel_img">
+                    <div class="hotel_img card-top">
                         <a href="http://localhost:1313/img/Hab1.jpg"><img src="http://localhost:1313/img/Hab1.jpg" alt="" width="600px"></a> 
+                    </div>
+                    <div class="card-bottom">
+                        <span class="top-text">Premium Membership</span><br>
+                        <span class="bottom-text">Join our membership program to download music for free, listen offline and skip songs</span>
+                        <br>
                         <a href="http://localhost:1313/#booking" class="book_now_btn button_hover">Reserva Ahora</a>
                     </div>
                 </div>
@@ -198,8 +201,12 @@
                 <div class="accomodation_item text-center">
                     <div class="hotel_img">
                         <a href="http://localhost:1313/img/Hab2.jpg"><img src="http://localhost:1313/img/Hab2.jpg" alt="" width="600px"></a>
-                        <a href="http://localhost:1313/#booking" class="book_now_btn button_hover">Reserva Ahora</a>
                     </div>
+                    <div class="card-bottom">
+                        <span class="top-text">Premium Membership</span><br>
+                        <span class="bottom-text">Join our membership program to download music for free, listen offline and skip songs</span>
+                        <br>
+                        <a href="http://localhost:1313/#booking" class="book_now_btn button_hover">Reserva Ahora</a>                    </div>
                 </div>
             </div>
         </div>
@@ -215,37 +222,37 @@
         <div class="row mb_30">
             <div class="col-lg-4 col-md-6">
                 <div class="facilities_item">
-                    <h4 class="sec_h4"><i class="fi fi-rr-restaurant"></i>Restaurant</h4>
+                    <h4 class="sec_h4"><i class="fi fi-rr-restaurant"></i>Cena & Desayuno</h4>
                     <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="facilities_item">
-                    <h4 class="sec_h4"><i class="fi fi-rr-lock"></i>Sports CLub</h4>
+                    <h4 class="sec_h4"><i class="fi fi-rr-lock"></i>Caja fuerte</h4>
                     <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="facilities_item">
-                    <h4 class="sec_h4"><i class="fi fi-rr-martini-glass-citrus"></i>Swimming Pool</h4>
+                    <h4 class="sec_h4"><i class="fi fi-rr-martini-glass-citrus"></i>Coctelería</h4>
                     <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="facilities_item">
-                    <h4 class="sec_h4"><i class="fi fi-rr-washer"></i>Rent a Car</h4>
+                    <h4 class="sec_h4"><i class="fi fi-rr-washer"></i>Lavado de ropa</h4>
                     <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="facilities_item">
-                    <h4 class="sec_h4"><i class="fi fi-rr-wifi"></i>Gymnesium</h4>
+                    <h4 class="sec_h4"><i class="fi fi-rr-wifi"></i>Wifi</h4>
                     <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="facilities_item">
-                    <h4 class="sec_h4"><i class="fi fi-rr-air-conditioner"></i>Bar</h4>
+                    <h4 class="sec_h4"><i class="fi fi-rr-air-conditioner"></i>Aire acondicionado</h4>
                     <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                 </div>
             </div>
@@ -263,7 +270,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="image/about_bg.jpg" alt="img">
+                <img class="img-fluid" src="http://localhost:1313/img/about.jpg" alt="img">
             </div>
         </div>
     </div>
@@ -350,7 +357,7 @@
                     <p><i class="fa fa-envelope me-3"></i>hostalaromasdelcaribe@gmail.com</p>                </div>
             </div>
             <div class="col-lg-4">
-                <img src="http://localhost:1313/img/footer.png" alt="">
+                <img src="http://localhost:1313/img/footer.png" alt="" width="300px">
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-footer-widget">

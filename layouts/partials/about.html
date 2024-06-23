@@ -4,12 +4,12 @@
             <div class="col-md-6 d_flex align-items-center">
                 <div class="about_content ">
                     <h2 class="title title_color">{{ i18n "aboutus" }} <br>{{ i18n "ourhistory" }}<br>{{ i18n "mision" }} & {{ i18n "vision" }}</h2>
-                    <p></p>
+                    <p>{{ i18n "description" }}</p>
                     <a href="#" class="button_hover theme_btn_two">Request Custom Price</a>
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="image/about_bg.jpg" alt="img">
+                <img class="img-fluid" src="{{ "img/about.jpg" | relURL }}" alt="img">
             </div>
         </div>
     </div>
