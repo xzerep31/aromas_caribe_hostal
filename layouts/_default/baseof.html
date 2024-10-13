@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{ partial "head" .}}
+    </head>
+    <body>
+        <main>
+            {{ block "main" .}}
+                <p>En Construcción!</p>
+            {{ end }}
+        </main>
+            <a href="{{ "/" |  relURL }}" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fi fi-rr-arrow-small-up"></i></a>
+        <footer>
+            <!--================ start footer Area  =================-->	
+            {{ partial "footer" .}}
+            <!--================ End footer Area  =================-->
+        </footer>        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        {{ range .Site.Params.js -}}
+            <script src="{{ . | relURL }}"></script>
+        {{ end -}}
+    </body>
+</html>

@@ -1,0 +1,242 @@
+- id: home
+  translation: "Home"
+
+- id: aboutus
+  translation: "About Us"
+
+- id: description
+  translation: "Hostal Aromas del Caribe TRINIDAD. Built at the end of the 18th century (with original walls, facade and ceilings). Very central. It offers 2 bedrooms, both on the second level. They are air conditioned with silent splits, wall fans and large windows. They have a minibar with beers and bottled water, a safe, a hairdryer and a clothes iron."
+
+- id: general
+  translation: "Our Home"
+
+- id: descriptionGeneral
+  translation: "Hostal Aromas del Caribe TRINIDAD is located on the central street of San José. It is a very favorable location for tourists due to its proximity to points of interest, colonial streets, museums, pedestrian areas, shops, bars, restaurants (such as La Botija, La Canchánchara or El Jigüe) and nightlife areas (bars, discos and terraces). Perfect to enjoy Trinidad on foot, without the need for taxis. Very close to the Plaza Mayor (150 m), a place where absolutely everyone passes by, full of life."
+
+- id: thehostal
+  translation: "The hostel"
+
+- id: descriptionthehostal
+  translation: "It is in a Spanish-era building, clearly colonial, built at the end of the 18th century (with original walls, façade and ceilings). It has a room with high ceilings (typical of the colonial era) and furnished with chairs and armchairs from the period. Due to its construction characteristics, it is a cool and very ventilated house. There is a small terrace on the roof of the house."
+
+- id: therooms
+  translation: "The rooms"
+
+- id: descriptiontherooms
+  translation: "It offers 2 bedrooms, both on the second level. Both are air conditioned with silent splits, wall fans and large windows. They have a minibar with beers and bottled water, a safe, a hairdryer and a clothes iron."
+
+- id: accesibility
+  translation: "Accessibility"
+
+- id: descriptionAccesibility
+  translation: "Rooms on the first floor (access by stairs, no elevator)."
+
+- id: gastronomy
+  translation: "gastronomic service"
+
+- id: descriptionGastronomytag1
+  translation: "Bar: Coffees, teas, waters, soft drinks, beers, cocktails (cubalibres, mojitos...)"
+
+- id: descriptionGastronomytag2
+  translation: "Breakfast: complete and healthy, continental type. We advise you to book it together with your accommodation (this way we will have everything in time to guarantee that your breakfasts are truly complete)."
+
+- id: descriptionGastronomytag3
+  translation: "Food (lunch and/or dinner): family and homemade cuisine, made with love. Cuban flavors (Creole cuisine), healthy food (fresh, market and seasonal products) and abundant portions with enough garnish. You will be satisfied at a very attractive price."
+
+- id: otherfacilities
+  translation: "Other services"
+
+- id: accomodationpolicies
+  translation: "Accommodation Rules"
+
+- id: policy1
+  translation: "Smoking: Smoking is allowed only in the smoking area."
+
+- id: policy2
+  translation: "Arrival from: 13:00 to 00:00."
+
+- id: policy3
+  translation: "Departure Limit: 11:00."
+
+- id: policy4
+  translation: "Parties: Yes, with permission and limits to be agreed upon."
+
+- id: policy5
+  translation: "Families with children: Yes, with permanent adult supervision."
+
+- id: policy6
+  translation: "Reduced mobility: No."
+
+- id: policy7
+  translation: "Pets: No."
+
+- id: language
+  translation: "Spoken languages"
+
+- id: enlang
+  translation: "English"
+
+- id: eslang
+  translation: "Espanish"
+
+- id: frlang
+  translation: "French"
+
+- id: hosters
+  translation: "Hosts"
+
+- id: descriptionHosters
+  translation: "Hello, we are Carlos and Maricel, hosts of Hostal Aromas Del Caribe. I have been a bartender with years of experience in hotels in Trinidad. And Marcicel is the soul of the kitchen (if you want, she will prepare some dinners for you so you can really enjoy Cuban food). We will both help you with whatever is necessary (we can find you trustworthy taxis, good tour guides, advise you on excellent excursions, etc.). We love history, especially that of our city and its traditions."
+
+- id: accomodations
+  translation: "Bedrooms"
+
+- id: gallery
+  translation: "Gallery"
+
+- id: blog
+  translation: "Blog"
+
+- id: services
+  translation: "Services"
+
+- id: contactus
+  translation: "Contact Us"
+
+- id: ourhistory
+  translation: "Our history"
+
+- id: mision
+  translation: "Mision"
+
+- id: vision
+  translation: "Vision" 
+
+- id: locate
+  translation: "Location" 
+
+- id: book
+  translation: "Booking"
+
+- id: now
+  translation: "Now"
+
+- id: room
+  translation: "Room"
+
+- id: largest
+  translation: "Big"
+
+- id: smallest
+  translation: "Small"
+
+- id: rooms
+  translation: "Rooms"
+
+- id: yourroom
+  translation: "your room"
+
+- id: numberof
+  translation: "Amount of"
+
+- id: child
+  translation: "Child"
+
+- id: childs
+  translation: "Childs"
+
+- id: adult
+  translation: "Adult"
+
+- id: adults
+  translation: "Adults"
+
+- id: baby
+  translation: "Baby"
+
+- id: old
+  translation: "Old"
+
+- id: younger
+  translation: "Young"
+
+- id: arrivalDate
+  translation: "Arrival date"
+
+- id: departureDate
+  translation: "Departure date"
+
+- id: lock
+  translation: "Safe"
+
+- id: dryer
+  translation: "clothes laundry"
+
+- id: cocktails
+  translation: "Welcome cocktail"
+
+- id: handmade
+  translation: "Manicure"
+
+- id: footmade
+  translation: "Pedicure"
+
+- id: barbershop
+  translation: "Barbershop"
+
+- id: lockDescription
+  translation: "The accommodation offers safe deposit box service in each of the rooms."
+
+- id: terrace
+  translation: "Private Terrace"
+
+- id: terraceDescription
+  translation: "Common spaces for exclusive use of the client."
+
+- id: breakfast
+  translation: "Breakfast"
+
+- id: descriptionDinner
+  translation: "Enjoy a traditional breakfast accompanied by natural juices and delicious coffee. Furthermore, if you wish you can enjoy our cuisine with excellent and exotic dishes that will please your palate."
+
+- id: parking
+  translation: "Parking at the door of the hostel (free)."
+
+- id: carparking
+  translation: "Free parking"
+
+- id: carparkingDescription
+  translation: "Park for free, in front of the property."
+
+- id: hairdry
+  translation: "Hair dryer"
+
+- id: hairdryDescription
+  translation: "The accommodation offers a hairdryer in each bathroom." 
+
+- id: wifi
+  translation: "Wifi"
+
+- id: wifiDescription
+  translation: "The accommodation offers WIFI signal in all rooms and common areas."
+
+- id: air-conditioning
+  translation: "Air-conditioning"
+
+- id: airconditionerDescription
+  translation: "All rooms have silent climate equipment."
+
+- id: roomInstall
+  translation: "Facilities in the room."
+
+- id: bathRoom
+  translation: "Bathroom"
+
+- id: descriptionRoomInstall
+  translation: "Access to terrace, Air conditioning, Wardrobe, Small safe, Lock on the door, Mini bar, Bedding (pillow, sheets, blankets, bedspreads), Fan."
+
+- id: descriptionRoomBathRoom
+  translation: "Hot water 24 hours, Private bathroom (inside the room), Shower, Soap, body wash and shampoo, Sink, Toilet paper, Hair dryer, Towels, 110V, 220V."
+
+- id: opinionUs
+  translation: "Leave us your opinion"

@@ -1,0 +1,242 @@
+- id: home
+  translation: "Début"
+
+- id: aboutus
+  translation: "Près de nous"
+
+- id: description
+  translation: "Hostal Aromas del Caribe TRINITÉ. Construit à la fin du XVIIIe siècle (avec murs, façades et plafonds d'origine). Très central. Elle offre 2 chambres, toutes deux au deuxième niveau. Ils sont climatisés avec des splits silencieux, des ventilateurs muraux et de grandes fenêtres. Elles disposent d'un minibar avec des bières et de l'eau en bouteille, d'un coffre-fort, d'un sèche-cheveux et d'un fer à repasser."
+
+- id: general
+  translation: "Histoire"
+
+- id: descriptionGeneral
+  translation: "L'Hostal Aromas del Caribe TRINIDAD est situé dans la rue centrale de San José. C'est un emplacement très favorable pour les touristes en raison de sa proximité avec des points d'intérêt, des rues coloniales, des musées, des zones piétonnes, des magasins, des bars, des restaurants (comme La Botija, La Canchánchara ou El Jigüe) et des zones de vie nocturne (bars, discothèques et terrasses). Parfait pour profiter de Trinidad à pied, sans avoir besoin de taxi. Tout près de la Plaza Mayor (150 m), un lieu où absolument tout le monde passe, plein de vie."
+
+- id: thehostal
+  translation: "L'auberge"
+
+- id: descriptionthehostal
+  translation: "Il s'agit d'un bâtiment de l'époque espagnole, clairement coloniale, construit à la fin du XVIIIe siècle (avec murs, façades et plafonds d'origine). Il dispose d'une pièce avec de hauts plafonds (typiques de l'époque coloniale) et meublée de chaises et fauteuils d'époque. De par ses caractéristiques de construction, c'est une maison fraîche et très ventilée. Il y a une petite terrasse sur le toit de la maison."
+
+- id: therooms
+  translation: "Les habitations"
+
+- id: descriptiontherooms
+  translation: "Elle offre 2 chambres, toutes deux au deuxième niveau. Les deux sont climatisés avec des splits silencieux, des ventilateurs muraux et de grandes fenêtres. Elles disposent d'un minibar avec des bières et de l'eau en bouteille, d'un coffre-fort, d'un sèche-cheveux et d'un fer à repasser."
+
+- id: accesibility
+  translation: "Accessibilité"
+
+- id: descriptionAccesibility
+  translation: "Chambres au premier étage (accès par escaliers, pas d'ascenseur)."
+
+- id: gastronomy
+  translation: "service gastronomique"
+
+- id: descriptionGastronomytag1
+  translation: "Bar : Cafés, thés, eaux, softs, bières, cocktails (cubalibres, mojitos...)"
+
+- id: descriptionGastronomytag2
+  translation: "Petit déjeuner : complet et sain, de type continental. Nous vous conseillons de le réserver avec votre hébergement (nous aurons ainsi tout à temps pour garantir que vos petits déjeuners soient vraiment complets)."
+
+- id: descriptionGastronomytag3
+  translation: "Alimentation (déjeuner et/ou dîner) : cuisine familiale et faite maison, réalisée avec amour. Saveurs cubaines (cuisine créole), alimentation saine (produits frais, du marché et de saison) et portions abondantes et suffisamment garnies. Vous serez satisfait à un prix très attractif."
+
+- id: otherfacilities
+  translation: "Autres services"
+
+- id: accomodationpolicies
+  translation: "Règles d'hébergement"
+
+- id: policy1
+  translation: "Fumer: Il est permis de fumer uniquement dans la zone fumeurs."
+
+- id: policy2
+  translation: "Arrivée de : 13h00 à minuit."
+
+- id: policy3
+  translation: "Limite de départ: 11h00."
+
+- id: policy4
+  translation: "Parties: Oui, avec autorisation et limites à convenir."
+
+- id: policy5
+  translation: "Familles avec enfants : Oui, sous la surveillance permanente d'un adulte."
+
+- id: policy6
+  translation: "Mobilité réduite : Non."
+
+- id: policy7
+  translation: "Animaux: Non."
+
+- id: language
+  translation: "Langues parlées"
+
+- id: enlang
+  translation: "Anglais"
+
+- id: eslang
+  translation: "Espagnol"
+
+- id: frlang
+  translation: "Français"
+
+- id: hosters
+  translation: "Hôtes"
+
+- id: descriptionHosters
+  translation: "Bonjour, nous sommes Carlos et Maricel, hôtes de l'Hostal Aromas Del Caribe. Je suis barman avec des années d'expérience dans les hôtels de Trinidad. Et Marcicel est l'âme de la cuisine (si vous le souhaitez, il vous préparera quelques dîners pour que vous puissiez vraiment profiter de la cuisine cubaine). Nous vous aiderons tous les deux pour tout ce qui est nécessaire (nous pouvons vous trouver des taxis de confiance, de bons guides touristiques, vous conseiller sur d'excellentes excursions, etc.). Nous aimons l'histoire, notamment celle de notre ville et de ses traditions."
+
+- id: accomodations
+  translation: "Chambres"
+
+- id: gallery
+  translation: "Galerie"
+
+- id: blog
+  translation: "Blog"
+
+- id: services
+  translation: "Prestations de service"
+
+- id: contactus
+  translation: "Contactez-nous"
+
+- id: ourhistory
+  translation: "Notre histoire"
+
+- id: mision
+  translation: "Mission"
+
+- id: vision
+  translation: "Vision" 
+
+- id: locate
+  translation: "Emplacement" 
+
+- id: book
+  translation: "Réservation"
+
+- id: now
+  translation: "Maintenant"
+
+- id: room
+  translation: "Chambre"
+
+- id: largest
+  translation: "Grand"
+
+- id: smallest
+  translation: "Petite"
+
+- id: rooms
+  translation: "Chambres"
+
+- id: yourroom
+  translation: "Ta chambre"
+
+- id: numberof
+  translation: "Quantité de"
+
+- id: child
+  translation: "Enfant"
+
+- id: childs
+  translation: "Enfants"
+
+- id: adult
+  translation: "Adulte"
+
+- id: adults
+  translation: "Adultes"
+
+- id: baby
+  translation: "Bébé"
+
+- id: old
+  translation: "Vieux"
+
+- id: younger
+  translation: "Jeune"
+
+- id: arrivalDate
+  translation: "Date d'arrivée"
+
+- id: departureDate
+  translation: "Date de sortie"
+
+- id: lock
+  translation: "Coffre fort"
+
+- id: dryer
+  translation: "Lessive"
+
+- id: cocktails
+  translation: "Cocktail de bienvenue"
+
+- id: handmade
+  translation: "Manucure"
+
+- id: footmade
+  translation: "Pédicure"
+
+- id: barbershop
+  translation: "Salon de coiffure"
+
+- id: lockDescription
+  translation: "L'hébergement propose un service de coffre-fort dans chacune des chambres."
+
+- id: terrace
+  translation: "Terrasse privée"
+
+- id: terraceDescription
+  translation: "Espaces communs à l'usage exclusif du client."
+
+- id: breakfast
+  translation: "Petit-déjeuner"
+
+- id: descriptionDinner
+  translation: "Profitez d'un petit-déjeuner traditionnel accompagné de jus de fruits naturels et d'un délicieux café. De plus, si vous le souhaitez, vous pourrez profiter de notre cuisine avec des plats excellents et exotiques qui raviront votre palais."
+
+- id: parking
+  translation: "Parking à la porte de l'auberge (gratuit)."
+
+- id: carparking
+  translation: "Parking gratuit"
+
+- id: carparkingDescription
+  translation: "Garez-vous gratuitement, devant la propriété."
+
+- id: hairdry
+  translation: "Sèche-cheveux"
+
+- id: hairdryDescription
+  translation: "Cet établissement propose un sèche-cheveux dans chaque salle de bains." 
+
+- id: wifi
+  translation: "Wifi"
+
+- id: wifiDescription
+  translation: "L'hébergement offre un signal WIFI dans toutes les chambres et les espaces communs."
+
+- id: air-conditioning
+  translation: "Air conditionné"
+
+- id: airconditionerDescription
+  translation: "Toutes les chambres disposent d’équipements climatiques silencieux."
+
+- id: roomInstall
+  translation: "Équipements dans la chambre."
+
+- id: bathRoom
+  translation: "Salle de bain"
+
+- id: descriptionRoomInstall
+  translation: "Accès terrasse, Climatisation, Armoire, Petit coffre-fort, Serrure sur la porte, Mini bar, Literie (oreillers, draps, couvertures, couvre-lits), Ventilateur."
+
+- id: descriptionRoomBathRoom
+  translation: "Eau chaude 24h/24, Salle de bain privée (à l'intérieur de la chambre), Douche, Savon, gel douche et shampoing, Lavabo, Papier toilette, Sèche-cheveux, Serviettes, 110V, 220V."
+
+- id: opinionUs
+  translation: "Laissez-nous votre avis"

@@ -1,0 +1,142 @@
+baseURL = 'https://hostalaromasdelcaribe.trinicuba.com/'
+languageCode = 'en-us'
+title = 'Hostal Aromas del Caribe'
+defaultContentLanguage = 'es'
+defaultContentLanguageInSubdir = true
+paginate = 20
+canonifyUrls = true
+enableRobotsTXT = true
+
+[params]
+    defaultDescription = ""
+    defaultKeywords = ["Hostal", "Aromas del Caribe", "Hostel", "Cuba", "Trinidad", "Caribe"]
+    
+    info = ""
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+
+    address = "San José #261 e/ Amargura y Real del Jigüe, Trinidad, Sancti Spíritus, Cuba"
+    phone  = "(+53) 5 522-7984"
+    email = "hostalaromasdelcaribe@gmail.com"
+
+    formsubmit_action = "https://formsubmit.co/hostalaromasdelcaribe@gmail.com"
+
+    css = ["css/style.css",
+           "css/responsive.css",
+           "css/bootstrap.css",
+           "css/bootstrap.min.css",
+           "vendors/linericon/style.css",
+           "vendors/font-awesome/css/font-awesome.min.css",
+           "vendors/owl-carousel/owl.carousel.min.css",
+           "vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css",
+           "vendors/nice-select/css/nice-select.css",
+           "vendors/owl-carousel/owl.carousel.min.css",
+           "vendors/flag-icons/css/flag-icons.css",
+           "vendors/uicons-regular-rounded/css/uicons-regular-rounded.css",
+           "vendors/animate/animate.min.css"
+          ]
+
+    js = ["js/jquery-3.2.1.min.js",
+          "js/popper.js",
+          "js/bootstrap.min.js",
+          "vendors/owl-carousel/owl.carousel.min.js",
+          "js/jquery.ajaxchimp.min.js",
+          "js/mail-script.js",
+          "vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js",
+          "vendors/nice-select/js/jquery.nice-select.js",
+          "js/mail-script.js",
+          "js/stellar.js",
+          "vendors/lightbox/simpleLightbox.min.js",
+          "js/custom.js",
+          "js/all.js",
+          "js/gallery.js",
+          "vendors/wow/wow.min.js"
+         ]
+
+[Author]
+    name = "Pedro Victor Navarrete Alejo"
+
+[languages]
+    [languages.es]
+        contentDir = 'content/es'
+        languageName = "Es"
+        weight = 1
+         [languages.es.params]
+            flag = 'fi fi-es fis'
+
+    [languages.en]
+       contentDir = 'content/en'
+       languageName = "En"
+       weight = 2
+        [languages.en.params]
+            flag = 'fi fi-sh fis'
+
+    [languages.fr]
+       contentDir = 'content/fr'
+       languageName = "Fr"
+       weight = 3
+        [languages.fr.params]
+            flag = 'fi fi-fr fis'
+
+
+# Social links
+[[params.social]]
+    name = "Facebook"
+    icon = "fa fa-facebook-official"
+    weight = 1
+    url = "https://www.facebook.com/hostalaromasdelcaribe.trinidaddecuba"
+
+[[params.social]]
+    name = "Gmail"
+    icon = "fa fa-envelope"
+    weight = 3
+    url = "mailto:hostalaromasdelcaribe@gmail.com"
+
+[[params.social]]
+    name = "Trip Advisor"
+    icon = "fa fa-tripadvisor"
+    weight = 4
+    url = "https://www.tripadvisor.es/Hotel_Review-g285731-d14996892-Reviews-Hostal_Aromas_del_Caribe-Trinidad_Sancti_Spiritus_Province_Cuba.html"
+
+# Menu links
+[[menu.main]]
+    name = "home"
+    weight = 1
+    url  = "/"
+[[menu.main]]
+    name = "aboutus"
+    weight = 2
+    url = "/#about"
+[[menu.main]]
+    name = "accomodations"
+    weight = 4
+    url = "/#accomodations"
+[[menu.main]]
+    name = "gallery"
+    weight = 5
+    url = "/#gallery"
+[[menu.main]]
+    name = "services"
+    weight = 6
+    url = "/#services"
+[[menu.main]]
+    name = "book"
+    weight = 7
+    url = "/#booking"
+[[menu.main]]
+    name = "contactus"
+    weight = 8
+    url = "/#footer"
+
+# Services
+[params.services]
+    enable = true
+
+# Staff
+[params.staff]
+    enable = true

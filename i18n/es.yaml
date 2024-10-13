@@ -1,0 +1,246 @@
+- id: home
+  translation: "Inicio"
+
+- id: aboutus
+  translation: "Acerca de Nosotros"
+
+- id: description
+  translation: "
+El Hostal Aromas del Caribe es una edificación construida en el siglo XVIII cuya arquitectura es la típica tradicional, elemento peculiar que lo distingue por encima de otros dentro de la zona. Posee dos habitaciones, en la planta alta, acomodadas y climatizadas que propician el descanso de nuestros huéspedes.El ambiente de paz y tranquilidad, que siente en nuestra casa, está embriagado con los aromas más singulares de la comida criolla mezclados con la brisa cálida que viene del Mar Caribe, de ahí que nuestro nombre sea Aromas del Caribe. La cercanía de distitnos clubes nocturnos así como de restaurantes, le permiten al visitante poder aprovechar al máximo su estadía, haciendo que conozca a plenitud nuestras tradiciones y cultura."
+
+- id: general
+  translation: "Nuestra Casa"
+
+- id: descriptionGeneral
+  translation: "El Hostal Aromas del Caribe TRINIDAD está situado en la céntrica calle de San José. Es una ubicación muy favorable para turistas por su proximidad a los puntos de interés, calles coloniales, museos, zonas peatonales, tiendas, bares, restaurantes (como La Botija, La Canchánchara o El Jigüe) y zonas de ocio nocturno (bares, discotecas y terrazas). Perfecto para disfrutar Trinidad a pie, sin necesidad de taxis. Muy cerca de la Plaza Mayor (a 150 m), lugar por donde pasa absolutamente todo el mundo, lleno de vida."
+
+- id: thehostal
+  translation: "El Hostal"
+
+- id: descriptionthehostal
+  translation: "Está en un edificio de época española, claramente colonial, construido a finales del siglo XVIII (con paredes, fachada y techos originales). Dispone de una sala con altos techos (típicos de la época colonial) y amueblado con sillas y sillones de la época. Por sus características constructivas, es una casa fresca y muy ventilada. Hay una pequeña terraza en la azotea de la casa."
+
+- id: therooms
+  translation: "Las Habitaciones"
+
+- id: descriptiontherooms
+  translation: "Ofrece 2 habitaciones, ambas en el segundo nivel. Ambas están climatizadas con Splits silenciosos, ventiladores de pared y amplias ventanas. Tienen minibar con cervezas y agua embotellada, caja fuerte, secador de pelo y plancha de ropa."
+
+- id: accesibility
+  translation: "Accesibilidad"
+
+- id: descriptionAccesibility
+  translation: "Habitaciones en la primera planta (acceso por escaleras, sin ascensor)."
+
+- id: gastronomy
+  translation: "Servicio gastronómico"
+
+- id: descriptionGastronomytag1
+  translation: "Bar: Cafés, tés, aguas, refrescos, cervezas, cócteles (cubalibres, mojitos…)"
+
+- id: descriptionGastronomytag2
+  translation: "Desayuno: completo y sano, del tipo continental. Te aconsejamos reservarlo junto con el alojamiento (así tendremos todo a tiempo para garantizar que tus desayunos estén realmente completos)."
+
+- id: descriptionGastronomytag3
+  translation: "Comida (almuerzo y/o cena): cocina familiar y casera, hecha con amor. Sabores cubanos (cocina criolla), comida sana (productos frescos, de mercado y de temporada) y raciones abundantes con suficiente guarnición. Quedarás satisfecho a un precio muy atractivo."
+
+- id: otherfacilities
+  translation: "Otros Servicios"
+
+- id: accomodationpolicies
+  translation: "Normas del Alojamiento"
+
+- id: policy1
+  translation: "Fumadores: Se permite fumar solo en zona de fumadores."
+
+- id: policy2
+  translation: "Llegada desde: 13:00 hasta 12:00."
+
+- id: policy3
+  translation: "Salida Límite: 11:00."
+
+- id: policy4
+  translation: "Fiestas: Sí, con permiso y límites a pactar."
+
+- id: policy5
+  translation: "Familias con niños: Sí, con supervisión permanente de un adulto."
+
+- id: policy6
+  translation: "Movilidad reducida: No."
+
+- id: policy7
+  translation: "Mascotas: No."
+
+- id: language
+  translation: "Idiomas"
+
+- id: enlang
+  translation: "Inglés"
+
+- id: eslang
+  translation: "Español"
+
+- id: frlang
+  translation: "Francés"
+
+- id: hosters
+  translation: "Anfitriones"
+
+- id: descriptionHosters
+  translation: "Hola, somos Carlos y Maricel, anfitriones del Hostal Aromas Del Caribe. Yo he sido barman con experiencia de años en hoteles de Trinidad. Y Marcicel es el alma de la cocina (si quieres, te preparará unas cenas para que realmente disfrutes de la comida cubana). Ambos te ayudaremos en lo que sea preciso (podemos encontrarte taxis de confianza, buenos guías turísticos, aconsejarte excelentes excursiones, etc.). Nos encanta la historia, especialmente la de nuestra ciudad y sus tradiciones."
+
+- id: accomodations
+  translation: "Habitaciones"
+
+- id: gallery
+  translation: "Galería"
+
+- id: blog
+  translation: "Blog"
+
+- id: services
+  translation: "Servicios"
+
+- id: contactus
+  translation: "Contáctenos"
+
+- id: ourhistory
+  translation: "Nuestra Historia"
+
+- id: mision
+  translation: "Misión"
+
+- id: vision
+  translation: "Visión" 
+
+- id: locate
+  translation: "Localización" 
+
+- id: book
+  translation: "Reserva"
+
+- id: now
+  translation: "Ahora"
+
+- id: room
+  translation: "Habitación"
+
+- id: largest
+  translation: "Grande"
+
+- id: smallest
+  translation: "Pequeña"
+
+- id: rooms
+  translation: "Habitaciones"
+
+- id: yourroom
+  translation: "tu habitación"
+
+- id: numberof
+  translation: "Cantidad de"
+
+- id: child
+  translation: "Niño"
+
+- id: childs
+  translation: "Niños"
+
+- id: adult
+  translation: "Adulto"
+
+- id: adults
+  translation: "Adultos"
+
+- id: baby
+  translation: "Bebé"
+
+- id: old
+  translation: "Viejo"
+
+- id: younger
+  translation: "Joven"
+
+- id: arrivalDate
+  translation: "Fecha de Llegada"
+
+- id: departureDate
+  translation: "Fecha de Salida"
+
+- id: lock
+  translation: "Caja fuerte"
+
+- id: dryer
+  translation: "Lavandería"
+
+- id: cocktails
+  translation: "Cóctel de bienvenida"
+
+- id: handmade
+  translation: "Manicure"
+
+- id: footmade
+  translation: "Pedicure"
+
+- id: barbershop
+  translation: "Barbería"
+
+- id: lockDescription
+  translation: "El alojamiento ofrece servicio de caja fuerte en cada una de las habitaciones."
+
+- id: terrace
+  translation: "Terraza Privada"
+
+- id: terraceDescription
+  translation: "Espacios comunes para uso exclusivo del cliente."
+
+- id: breakfast
+  translation: "Desayuno"
+
+- id: descriptionDinner
+  translation: "Disfrute de un desayuno tradicional acompañado de jugos naturales y un delicioso café. Además, si lo desea puede disfrutar de nuestra cocina con excelentes y exóticos platillos que agradarán a su paladar."
+
+- id: parking
+  translation: "Aparcamiento en la puerta del hostal (gratuito)"
+
+- id: carparking
+  translation: "Aparcamiento gratuito"
+
+- id: carparkingDescription
+  translation: "Aparca de forma gratuita, delante de la propiedad."
+
+- id: hairdry
+  translation: "Secador de pelo"
+
+- id: hairdryDescription
+  translation: "El alojamiento ofrece un secador de pelo en cada cuarto de baño." 
+
+- id: wifi
+  translation: "Wifi"
+
+- id: wifiDescription
+  translation: "El alojamiento ofrece señal WIFI en todas las habitaciones y zonas comunes."
+
+- id: air-conditioning
+  translation: "Aire acondicionado"
+
+- id: airconditionerDescription
+  translation: "Todas las habitaciones cuentan con equipos de clima silenciosos."
+
+- id: roomInstall
+  translation: "Instalaciones en la habitación."
+
+- id: bathRoom
+  translation: "Cuarto de baño"
+
+- id: descriptionRoomInstall
+  translation: "Acceso a terraza, Aire acondicionado, Armario ropero, Caja fuerte pequeña, Cerradura en la puerta, Mini bar, Ropa de cama (almohada, sábanas, mantas, colchas), Ventilador."
+
+- id: descriptionRoomBathRoom
+  translation: "Agua caliente 24 horas, Baño privado (dentro de la habitación), Ducha, Jabón, gel de baño y champú, Lavabo, Papel higiénico, Secador de pelo, Toallas, 110V, 220V."
+
+- id: opinionUs
+  translation: "Déjenos su opinión"
+
+- id: socials
+  translation: "Redes Sociales"

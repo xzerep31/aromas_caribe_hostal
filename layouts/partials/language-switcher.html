@@ -1,0 +1,12 @@
+<div class="dropdown">
+    {{ if .Site.IsMultiLingual }}
+    <button> <i class="{{ .Language.Params.flag }}"></i></button>
+        <nav>
+            <ul>
+                {{ range $.Translations }}
+                    <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}"><i class="{{ .Language.Params.flag }}"></i></a></li>              
+                {{ end }}
+            </ul>
+        </nav>
+    {{ end }}
+</div>
