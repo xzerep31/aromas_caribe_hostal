@@ -136,6 +136,12 @@
 - id: yourroom
   translation: "Ta chambre"
 
+- id: yourname
+  translation: "ton nom"
+
+- id: youremail
+  translation: "votre email"
+
 - id: numberof
   translation: "Quantité de"
 

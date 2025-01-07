@@ -683,10 +683,12 @@ img {
   line-height: 30px;
   color: #fff;
   text-transform: uppercase;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .boking_table {
-  margin-left: -50px;
+  margin-left: 0px;
 }
 
 .book_tabel_item .form-group {

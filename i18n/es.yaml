@@ -137,6 +137,12 @@ El Hostal Aromas del Caribe es una edificación construida en el siglo XVIII cuy
 - id: yourroom
   translation: "tu habitación"
 
+- id: yourname
+  translation: "tu nombre"
+
+- id: youremail
+  translation: "tu correo"
+
 - id: numberof
   translation: "Cantidad de"
 

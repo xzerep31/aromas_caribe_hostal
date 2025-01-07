@@ -2,74 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fr/about/</loc>
-    <lastmod>2024-06-19T11:36:40-04:00</lastmod>
+    <loc>https://hostalaromasdelcaribe.trinicuba.com/fr/</loc>
+    <lastmod>2025-01-07T10:34:37-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/about/"
+                href="https://hostalaromasdelcaribe.trinicuba.com/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/about/"
+                href="https://hostalaromasdelcaribe.trinicuba.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/about/"
+                href="https://hostalaromasdelcaribe.trinicuba.com/fr/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/</loc>
-    <lastmod>2024-06-19T11:36:40-04:00</lastmod>
+    <loc>https://hostalaromasdelcaribe.trinicuba.com/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/"
+                href="https://hostalaromasdelcaribe.trinicuba.com/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://hostalaromasdelcaribe.trinicuba.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/"
+                href="https://hostalaromasdelcaribe.trinicuba.com/fr/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/categories/</loc>
+    <loc>https://hostalaromasdelcaribe.trinicuba.com/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/categories/"
+                href="https://hostalaromasdelcaribe.trinicuba.com/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://hostalaromasdelcaribe.trinicuba.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/fr/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
+                href="https://hostalaromasdelcaribe.trinicuba.com/fr/tags/"
                 />
   </url>
 </urlset>

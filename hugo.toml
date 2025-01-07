@@ -1,10 +1,10 @@
-#baseURL = 'https://hostalaromasdelcaribe.trinicuba.com/'
-baseURL = 'https://xzerep31.github.io/aromas_caribe_hostal'
+baseURL = 'https://hostalaromasdelcaribe.trinicuba.com/'
+# baseURL = 'https://xzerep31.github.io/aromas_caribe_hostal'
 languageCode = 'en-us'
 title = 'Hostal Aromas del Caribe'
 defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = true
-paginate = 20
+pagination.pagerSize = 20
 canonifyUrls = true
 enableRobotsTXT = true
 
